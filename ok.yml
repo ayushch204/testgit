@@ -1,0 +1,6 @@
+---
+ - name: hello this is zayn
+   hosts: all
+   tasks:
+   - debug:
+      msg: "Hello this is One Direction"
