@@ -1,0 +1,11 @@
+---
+ - name: Hello From One Direction
+   hosts: all
+   vars:
+    x: "ayushch204"
+    y: "Ayush204@"
+   remote_user: root
+   tasks:
+   - git:
+     repo: 'https://{{x}}:{{y}}@github.com/ayushch204/testgit.git'
+     dest: /opt/downloads     
